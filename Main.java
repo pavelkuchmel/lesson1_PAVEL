@@ -59,15 +59,61 @@ public class Main {
         System.out.println(s);
          */
         //Begin10. Даны два ненулевых числа. Найти сумму, разность, произведение и частное их квадратов
-        int a=25;
+        /*int a=25;
         int b=35;
         int S=a+b;
         int R=b-a;
         int P=a*b;
-        double C=(a*b)/(a*b);
+        double C=(a*b)/(double)(a*b);
         System.out.println("Сумма "+S);
         System.out.println("Разность "+R);
         System.out.println("Произведение "+P);
         System.out.println("Частное квадратов "+C);
+         */
+        //Begin9. Даны два неотрицательных числа a и b. Найти их среднее геометрическое, то есть квадратный корень из их произведения: √a·b
+        /*double a=3.45
+        double b=7.25
+        double g_avg= Math.sqrt(a*b);
+        System.out.println(g_avg);
+         */
+        //Begin11. Даны два ненулевых числа. Найти сумму, разность, произведение и частное их модулей
+        /*int a=-5;
+        int b=-24;
+        a = Math.abs(a);
+        b = Math.abs(b);
+        double s=a+b;
+        System.out.println("Сумма модулей: "+ (int)s);
+        s=a-b;
+        System.out.println("Разность: "+ (int)s);
+        s=(double)a/b;
+        System.out.println("Частное: "+ (int)s);
+         */
+        //Begin22. Поменять местами содержимое переменных A и B и вывести новые значения A и B
+        /*int a=3;
+        int b=10;
+        int c=a;
+        a=b;
+        b=c;
+        System.out.println("Переменная а: "+a+" Переменная"+b);
+         */
+        //Begin12. Даны катеты прямоугольного треугольника a и b. Найти его гипотенузу c и периметр P: c = √a^2 + b^2, P = a + b + c.
+            /*int a=4;
+            int b=4;
+            int c;
+            c=
+             */
+        //Begin13◦
+        //. Даны два круга с общим центром и радиусами R1 и R2 (R1 > R2).
+        //Найти площади этих кругов S1 и S2, а также площадь S3 кольца, внешний
+        //радиус которого равен R1, а внутренний радиус равен R2:
+        //S1 = π·(R1)
+        //2
+        //, S2 = π·(R2)
+        //2
+        //, S3 = S1 − S2.
+        int R1=30;
+        int R2=20;
+        int
+
     }
 }
